@@ -1,0 +1,18 @@
+{
+  "emailsInvalidos": ["marcelo.qa@", "marcelo.qa.teste.com", "@teste.com"],
+  "cpfDigitosRepetidos": "11111111111",
+  "cpfDigitoVerificadorInvalido": "12345678900",
+  "nomeSomenteEspacos": "   ",
+  "mensagens": {
+    "emailInvalido": "Email inválido",
+    "formularioIncorreto": "Dados do formulário incorretos",
+    "campoSenha": "Alterar senha",
+    "nomeObrigatorio": "Nome é obrigatório",
+    "usuarioJaExiste": "Usuário já existe",
+    "sucessoCriacao": "Usuário criado com sucesso!"
+  },
+  "codigosApi": {
+    "nomeObrigatorio": "users.errors.nameRequired",
+    "usuarioJaExiste": "users.errors.userAlreadyExists"
+  }
+}

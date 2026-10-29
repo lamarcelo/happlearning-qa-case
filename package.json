@@ -1,0 +1,22 @@
+{
+  "name": "happlearning-qa-case",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Teste prático de QA",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --spec \"cypress/e2e/usuarios/**/*.cy.js\"",
+    "cy:run:bugs": "cypress run --spec \"cypress/e2e/bugs-conhecidos/**/*.cy.js\"",
+    "lint": "eslint .",
+    "format": "prettier --write cypress cypress.config.js eslint.config.js"
+  },
+  "devDependencies": {
+    "cypress": "^16.2.1",
+    "eslint": "^10.13.0",
+    "eslint-plugin-cypress": "^7.0.2",
+    "prettier": "^3.9.10"
+  },
+  "allowScripts": {
+    "cypress@16.2.1": true
+  }
+}
